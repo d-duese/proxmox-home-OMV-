@@ -1,0 +1,18 @@
+balloon: 40
+bootdisk: virtio0
+cores: 2
+ide2: none,media=cdrom
+memory: 4192
+name: OMV
+net0: virtio=56:34:E8:2C:24:60,bridge=vmbr0
+onboot: 1
+ostype: l26
+smbios1: uuid=40852ff6-1608-4ce3-bdd7-34b85b2b21ed
+sockets: 1
+startup: order=1,up=0,down=30
+virtio0: local:105/vm-105-disk-1.qcow2,format=qcow2,size=10G
+virtio1: /dev/disk/by-id/ata-WDC_WD20EFRX-68EUZN0_WD-WCC4M0159190,backup=no
+virtio2: /dev/disk/by-id/ata-WDC_WD20EFRX-68EUZN0_WD-WCC4M0174360,backup=no
+
+[PENDING]
+memory: 4096
