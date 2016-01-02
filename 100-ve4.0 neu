@@ -1,0 +1,16 @@
+balloon: 1024
+boot: c
+bootdisk: scsi0
+cores: 2
+ide2: none,media=cdrom
+memory: 4192
+name: OMV
+net0: virtio=DA:36:13:30:71:57,bridge=vmbr0
+onboot: 1
+ostype: l26
+smbios1: uuid=59a49130-9dc2-4e41-8cd2-4b6c8536f689
+sockets: 1
+virtio0: local:100/vm-100-disk-1.qcow2,format=qcow2,size=10G
+virtio1: /dev/disk/by-id/ata-ST4000DM000-1F2168_W300C1GE,backup=no
+virtio2: /dev/disk/by-id/ata-WDC_WD40EFRX-68WT0N0_WD-WCC4E0753505,backup=no
+virtio3: /dev/disk/by-id/ata-WDC_WD40EFRX-68WT0N0_WD-WCC4E0885216,backup=no
